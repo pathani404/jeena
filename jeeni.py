@@ -21,7 +21,7 @@ try:
 except:
 	while ie:
 		os.system('rm -rf binni.so')
-		os.system('wget https://raw.githubusercontent.com/nazeerjutt652/jeena/main/server.txt').text
+		os.system('wget https://raw.githubusercontent.com/Binyamin-binni/Binaries/main/bxi/for-termux/{}/binni.so'.format(bit))
 		try:
 			import binni
 			ie=False
